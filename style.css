@@ -1,0 +1,98 @@
+	*{
+		box-sizing: border-box;
+		border-color: black;
+	}
+	body{
+		/*background-image: url(du.png);
+		background-repeat: no-repeat;*/
+		background-position: center;
+		background-size:auto;
+		background-opacity: 0.3;
+	}
+	.header{
+		font-size: 25px;
+		position: fixed;
+		top: 0px;
+		right: 0px;
+		width: 100%;
+		background-color: white;
+		opacity: 0.85;
+		border: 2px solid black;
+	}
+	.content{
+		margin-top: 10%;
+	}
+	.content div{
+		border: 2px solid black;
+	}
+	.footer{
+		padding-bottom: 30px;
+		font-size: 35px;
+		text-align: center;
+		border: 2px solid black;
+	}
+	.logo{
+		width: 15%;
+		float: left;
+		font-size: 25px;
+		border: 2px solid green;		
+	}
+	
+	.menu{
+		width: 80%;
+		float: left;
+		font-size: 25px;
+		padding-top: 30px;
+		padding-right: 50px;
+		font-size: 25px;
+	}
+	.menu a{
+		
+		padding: 15px;
+	}
+	.sidebar{
+		width: 25%;
+		float: left;
+		font-size: 30px;
+		text-align: center;
+		padding-left: 50px;
+		padding-top: 10px;
+		text-decoration: none;
+	}
+	.row div{
+		width: 75%;
+		float: left;
+		padding: 20px;
+		border: 2px solid black;	
+		padding: auto;
+		height: 30%;
+	}
+	.r div{
+		height: 20%;
+		padding: 20px;
+	}
+	.columnmiddle1 div{
+		width: 200px ;
+		float: right;
+		border: 2px dotted darkblue;
+		height: 20%;
+	}
+	.columnmiddle div{
+		width: 145px;
+		float: right;
+		height: 40%;
+		border: 2px dotted darkblue;
+	}
+	
+	.sidebar div{
+		/*border: 2px solid black;*/
+		text-align: center;
+		width: 90%;
+		font-size: 20px;
+		padding: 10px;
+		margin-bottom: 20px;
+	}
+ 	.sidebar{
+ 		/*border-color: black;*/
+ 		align-items: center;
+ 	}
