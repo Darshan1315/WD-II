@@ -3,8 +3,6 @@
 		border-color: black;
 	}
 	body{
-		/*background-image: url(du.png);
-		background-repeat: no-repeat;*/
 		background-position: center;
 		background-size:auto;
 		background-opacity: 0.3;
@@ -55,37 +53,38 @@
 		float: left;
 		font-size: 30px;
 		text-align: center;
-		padding-left: 50px;
-		padding-top: 10px;
+		padding: 10px 10px 0px 15px;
 		text-decoration: none;
 	}
-	.row div{
+	.row{
 		width: 75%;
 		float: left;
 		padding: 20px;
-		border: 2px solid black;	
+		border: 2px solid red;	
 		padding: auto;
-		height: 30%;
+		height: 54.2%;
 	}
 	.r div{
-		height: 20%;
+		height: 40%;
 		padding: 20px;
+		width: 100%;
+		border:1px solid darkgoldenrod;
+		margin: 10px 20px 1px 1px;
 	}
 	.columnmiddle1 div{
-		width: 200px ;
+		width: 320px;
 		float: right;
 		border: 2px dotted darkblue;
-		height: 20%;
 	}
 	.columnmiddle div{
-		width: 145px;
+		width: 205px;
 		float: right;
 		height: 40%;
 		border: 2px dotted darkblue;
 	}
 	
 	.sidebar div{
-		/*border: 2px solid black;*/
+
 		text-align: center;
 		width: 90%;
 		font-size: 20px;
@@ -93,6 +92,17 @@
 		margin-bottom: 20px;
 	}
  	.sidebar{
- 		/*border-color: black;*/
  		align-items: center;
  	}
+ 	.table div{
+ 		height: 75px;
+
+ 	}
+ 	 .r .columnmiddle1{
+ 	 	height: 45%;
+ 	 	margin-bottom: 2%;
+
+ 	 }
+ 	 .r .columnmiddle{
+ 	 	height: 45%;	
+ 	 }
