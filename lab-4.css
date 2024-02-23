@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+} 
+.title{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    font-size: 300%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.sidebar{
+    float: right;
+    width: 15%;
+    height: 280px;
+    border: 1px dotted black;
+    margin-top: 0px;
+}
+.center{
+    width: 85%;
+}
+.u1 {
+    list-style-type: none;
+    font-size: 150%;
+  }
+  .block{
+    margin-top: 5%;
+    border: 1px solid black;
+    background-color: lightgray
+  }
