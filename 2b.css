@@ -1,0 +1,31 @@
+.main{
+    background-color: lightblue;
+}
+.head{
+    background-color: darkblue;
+}
+.con{
+    background-color: lightgreen;
+    height: 200px;
+}
+.a{
+    background-color: black;
+    color: whitesmoke;
+    padding: 5px;
+    margin: 20px;
+    width: 50%;
+}
+.side{
+    background-color: black;
+    color: whitesmoke;
+    float: right;
+    width: 40%;
+    height: 150px;
+}
+.FOOTER{
+    background-color: darkorchid;
+    color: whitesmoke;
+}
+body{
+    background-color: lightblue;
+}
